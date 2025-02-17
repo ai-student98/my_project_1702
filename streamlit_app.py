@@ -79,6 +79,7 @@ with st.expander('Data preparation'):
     st.write(y)
   
 from sklearn.ensemble import RandomForestClassifier
+import numpy as np
 
 base_rf = RandomForestClassifier(random_state=42)
 base_rf.fit(X, y)
